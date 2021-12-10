@@ -1,174 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="2081040-TugasMID/BARDIbro.jpg">
-    <title>Bardi Smarthome Indonesia | Smart Home System Devices</title>   
-    <link rel="stylesheet" href="index.css"> 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bardi</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./images/fav.jpg" />
 </head>
+
 <body>
-    <div><p class="tophead">Coba dulu <span><a style="color: #231f20;" href="https://bardi.co.id/virtual-showroom"><u><em><b>di sini</b></em></u></a></span> sebelum membeli</p>
-    </div>
-    <div>
-    <ul>
-        <li class="kata"><a href="https://unai.edu">Website UNAI</a></li>
-        <li class="kata"><a href="https://fti.unai.edu">Website FTI UNAI</a></li>
-        <li class="kata"><a href="creativity.html">Creativity</a></li>
-        <li class="kata"><a href="gallery.html">Gallery</a></li>
-        <li class="kata"><a href="contact_us.html">Contact Us</a></li>
-        <li class="kata"><a href="biodata.html">Biodata</a></li>
-        <li class="kata"><a href="index.html">Home</a></li>
-        <li><a href="https://bardi.co.id" target="_blank"><img class="pict" src="2081040-TugasMID/BARDIbro.jpg"></a></li> 
-    </ul>
-    </div>
-    <div class="foto1">
-        <a href="https://bardi.co.id/products/smart-bulb-9w-rgbww" target="_blank"><img src="2081040-TugasMID/AWALAN_BARDI.jpg" width="100%"></a>
-    </div>
+  <!-- topbar -->
+  <div class="topbar container-fluid">
+    <p class="text-center">Coba dulu <a href="#" class="topbar--link"><strong>disini</strong></a> sebelum membeli</p>
+  </div>
 
-    <div><h2 class="line"><span>PRODUK UNGGULAN</span></h2></div>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">Brand</a> -->
+      <a href="index.html"><img src="https://bardi.co.id/wp-content/uploads/2019/02/cropped-Logo.jpg" alt="brand"
+          class="navbar--img lazyloaded" data-ll-status="loaded" style="padding: 0;margin: 0px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="biodata.html">Biodata</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact_us.html">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="creativity.html">Creativity</a>
+          </li>
+          <li class="nav-item" >
+                  <a href="https://fti.unai.edu" target="_Blank" class="nav-link">Website FTI UNAI</a>
+                </li>
+          <li class="nav-item">
+                  <a href="https://unai.edu" target="_Blank" class="nav-link">Website UNAI</a>
+                </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <div>
-        <div class="row">
-        <div class="column">
-          <a href><img src="2081040-TugasMID/column1.jpg" width="70%" class="med"></a>
-          <h3 class="blue"> SMART BULB 9W – RGBWW</h3>
-          <p class="desc">BARDI Smart Bulb adalah bohlam pintar yang dapat dihidupkan atau dimatikan melalui aplikasi, memiliki 16 juta warna RGB, dan dapat diatur temperatur warna dari 2700K-6500K. Selain itu, bohlam pintar ini dapat diredupkan atau dicerahkan melalui aplikasi dan dapat diatur secara grup dengan lampu lainnya.<br><br>
+  <!-- banner -->
+  <div class="container-fluid banner">
+    <img src="./images/banner.jpg" alt="banner" class="banner--img">
+  </div>
 
-            Lampu ini memiliki kecerahan maksimal di 900 Lumens, dan dapat diredupkan hingga 90 Lumens. Bohlam ini sangat mudah dipasang dan menggunakan ulir E27 yaitu fitting lampu yang paling umum di Indonesia.</p>
+  <!-- produk unggulan -->
+  <section id="produk">
+    <div class="container">
+      <h2 class="page--title">PRODUK UNGGULAN</h2>
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <img src="./images/produk/produk1.jpg" alt="">
+          <h5 class="produk--title">SMART BULB 9W – RGBWW</h5>
+          <p class="produk--description">BARDI Smart Bulb adalah bohlam pintar yang dapat dihidupkan atau dimatikan
+            melalui aplikasi, memiliki 16 juta warna RGB, dan dapat diatur temperatur warna dari 2700K-6500K. Selain
+            itu, bohlam pintar ini dapat diredupkan atau dicerahkan melalui aplikasi dan dapat diatur secara grup dengan
+            lampu lainnya.</p>
         </div>
-        
-        <div class="column">
-          <img src="2081040-TugasMID/column2.jpg" width="70%" class="med">
-          <h3 class="blue"> IR REMOTE 10M – BLK</h3>
-          <p class="desc">BARDI Smart IR Remote adalah pemancar infrared pintar yang bisa di kendalikan melalui aplikasi selama ada koneksi internet.<br><br>
+        <div class="col-md-4 col-sm-12">
+          <img src="./images/produk/produk2.jpg" alt="">
+          <h5 class="produk--title">IR REMOTE 10M – BLK</h5>
+          <p class="produk--description">BARDI Smart IR Remote adalah pemancar infrared pintar yang bisa di kendalikan
+            melalui aplikasi selama ada koneksi internet.
 
-            Remote ini dapat menggantikan semua remote infrared dengan mayoritas sudah ada dalam daftar dan bila tidak ada, bisa menggunakan fitur DIY yaitu duplikasi signal infrared dari remote lama ke IR Remote BARDI.</p>
+            Remote ini dapat menggantikan semua remote infrared dengan mayoritas sudah ada dalam daftar dan bila tidak
+            ada, bisa menggunakan fitur DIY yaitu duplikasi signal infrared dari remote lama ke IR Remote BARDI.</p>
         </div>
-        
-        <div class="column">
-          <img src="2081040-TugasMID/column3.jpg" width="70%" class="med">
-          <h3 class="blue"> IP CAMERA IDR – IPC – STC</h3>
-          <p class="desc">BARDI Smart IP Camera adalah kamera pintar yang dapat menyalurkan video berikut suara kepada smartphone dan suara dari smartphone.<br><br>
+        <div class="col-md-4 col-sm-12">
+          <img src="./images/produk/produk3.jpg" alt="">
+          <h5 class="produk--title">IP CAMERA IDR – IPC – STC</h5>
+          <p class="produk--description">BARDI Smart IP Camera adalah kamera pintar yang dapat menyalurkan video berikut
+            suara kepada smartphone dan suara dari smartphone.
 
-            Kamera BARDI memiliki slot MicroSD dengan kapasitas maksimal 128GB (tidak termasuk) dan dapat memberi notifikasi bila ada yang lewat pada jam yang di tentukan dalam aplikasi. Pada posisi gelap dapat diatur secara otomatis beralih ke penglihatan malam (night vision).</p>
+            Kamera BARDI memiliki slot MicroSD dengan kapasitas maksimal 128GB (tidak termasuk) dan dapat memberi
+            notifikasi bila ada yang lewat pada jam yang di tentukan dalam aplikasi. Pada posisi gelap dapat diatur
+            secara otomatis beralih ke penglihatan malam (night vision).</p>
+
         </div>
       </div>
     </div>
+  </section>
 
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <h1 class="duk">DIDUKUNG OLEH TUYA</h1>
-    <h3 class="blck">Tuya adalah platform pintar global, platform pengembangan ‘AI+IoT’<br> dan platform interaksi suara AI terkemuka.</h3>
-    <div class="row">
-        <div class="column">
-          <p class="teeks">mengaktifkan produk pintar untuk konsumen, merek, produsen OEM, dan rantai ritel, Tuya menyediakan solusi lengkap bagi pengguna yang mencakup akses perangkat keras, layanan cloud, dan kapabilitas pengembangan aplikasi.</span> </p>
+  <!-- support -->
+  <section id="support">
+    <div class="container">
+      <h2 class="heading">DIDUKUNG OLEH TUYA</h2>
+      <h5 class="support--subheading">Tuya adalah platform pintar global, platform pengembangan ‘AI+IoT’<br> dan
+        platform
+        interaksi suara AI terkemuka.
+      </h5>
+      <div class="row">
+        <div class="col-md-4">
+          <p class="support--description">Dengan mengaktifkan produk pintar untuk konsumen, merek, produsen OEM, dan
+            rantai ritel, Tuya menyediakan
+            solusi lengkap bagi pengguna yang mencakup akses perangkat keras, layanan cloud, dan kapabilitas
+            pengembangan aplikasi.</p>
         </div>
-        
-        <div class="column">
-          <p class="teeks">Pada akhir Mei 2021, Tuya Smart telah melayani lebih dari 220 negara di seluruh dunia, menghubungkan lebih dari 100 juta produk pintar di pasar, menciptakan model “AI + IoT” yang sepenuhnya netral untuk memberdayakan produk, dengan total daftar produk lebih dari 310.000 dan penjualan ke lebih dari 220 negara.</p>
+        <div class="col-md-4">
+          <p class="support--description">Dengan mengaktifkan produk pintar untuk konsumen, merek, produsen OEM, dan
+            rantai ritel, Tuya menyediakan
+            solusi lengkap bagi pengguna yang mencakup akses perangkat keras, layanan cloud, dan kapabilitas
+            pengembangan aplikasi.</p>
         </div>
-        
-        <div class="column">
-            <p class="teeks">Memiliki platform cloud global loT dengan arsitektur terdistribusi, permintaan perangkat pemrosesan harian telah mencapai hampir 80 miliar kali, interaksi suara Al setiap hari telah melampaui 122 juta kali.</p>
-            
+        <div class="col-md-4">
+          <p class="support--description">Dengan mengaktifkan produk pintar untuk konsumen, merek, produsen OEM, dan
+            rantai ritel, Tuya menyediakan
+            solusi lengkap bagi pengguna yang mencakup akses perangkat keras, layanan cloud, dan kapabilitas
+            pengembangan aplikasi.</p>
         </div>
       </div>
-    <div>
-    <h1 class="duk">UNTUK INDONESIA</h1>
-    <img src="2081040-TUGASMID/indo.jpg" width="100%">
     </div>
-    <br>
-    <br>
-    <div>
-        <p class="teeks"><span><strong>Bardi Smart Home</strong></span> berinvestasi dalam Produk Smart Home yang ready stock dan bersertifikasi Indonesia. Produk BARDI Smart Home hadir dengan <strong>Garansi 1 tahun</strong>, dan dapat diklaim di kota-kota besar di Indonesia. Pusat panggilan kami fasih berbahasa Indonesia, siap untuk menjawab <em>Whatsapp</em> dan panggilan di <span><a style="text-decoration: none;" href="https://api.whatsapp.com/send/?phone=628111797911&text&app_absent=0" class="notelp">+62 811-1797-911</a></span> [ Waktu operasional Senin-Minggu, jam 08:00 s.d 01:00 WIB ].</p>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div>
-        <p class="downl">Download Aplikasi BARDI di:</p>
-    </div>
-    <div class="store">
-        <a href=""><img src="2081040-TugasMID/googleplay.jpg"></a> <a href=""><img src="2081040-TugasMID/appstore.jpg"></a>
-    </div>
-    <br>
-    <br>
-    <div class="vid">
-        <video width="700" height="400" controls>
-            <source src="https://bardi.co.id/wp-content/uploads/2020/12/bardi-bg-yt.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video>
-    </div>
-    <br>
-    <br>
-    <hr class="satu">
-    <br>
-    <div>
-        <img id="gambar" src="2081040-TugasMID/amazon-alexa.jpg"><img id="gambar1" src="2081040-TugasMID/google-assistant.jpg"><img id="gambar2" src="2081040-TugasMID/siri.png"><img id="gambar2" src="2081040-TugasMID/ios.png"><img id="gambar2" src="2081040-TugasMID/android.png"><img id="gambar3" src="2081040-TugasMID/5a4ea095494fc2e170b1b470fcba3b69.jpg">
-    </div>
-    <br>
-    <br>
-    <br>
-    <div>
-        <h3 class="textfooter">TETAP TERHUBUNG DENGAN KAMI</h3>
-        <p class="textfooter2">Mari tetap terhubung</p>
-    </div>
-    <br>
-    <br>
-    <div class="row">
-        <div class="column3">
-            <img class="gbrfooter" src="2081040-TUGASMID/BARDIbro.jpg">
-        </div>
-        
-        <div class="column3">
-            <pre class="endtext">
-                    PT. BARDI Solusi Otomasi
-                    Samanea Whole Sale Market
-                    Side C Unit No C041-C044
-                    Jl. Suvarna Sutera Boulevard, Pasir Gadung
-                    Kec. Cikupa, Tangerang, Banten 15560
-                    Tech Support : 08111 7979 11
-                    Claim Warranty : 0817 66666 82
-                    Project Enquiry : 0817 7176 13
-                    Distributor Relation : 0817 7176 01
-                    Vendor Relation : 0817 7176 12</pre> 
-        </div>
+  </section>
 
-        <div class="column3">
-            <pre class="endtext">
-                Beranda
-                Produk
-                Belanja
-                Claim Garansi
-                IP Cam CCTV
-            </pre>
+  <!-- map -->
+  <section id="map">
+    <div class="container">
+      <h2 class="heading">UNTUK INDONESIA</h2>
+      <img src="./images/peta-indonesia.jpg" alt="map">
+      <p class="map--description"><b>BARDI Smart Home</b> berinvestasi dalam Produk <i>Smart Home</i> yang ready stock
+        dan
+        bersertifikasi Indonesia. Produk BARDI Smart Home hadir dengan <b>Garansi 1 tahun</b>, dan dapat diklaim di
+        kota-kota
+        besar di Indonesia. Pusat panggilan kami fasih berbahasa Indonesia, siap untuk menjawab Whatsapp dan panggilan
+        di +62 811-1797-911 [Waktu operasional Senin-Minggu 24/7].</p>
+    </div>
+  </section>
+
+  <!-- app -->
+  <section id="app">
+    <div class="container d-flex justify-content-center flex-column align-items-center">
+      <p class="app--title">Download Aplikasi BARDI di:</p>
+      <div class="app--store d-flex">
+        <a href=""><img src="./images/playstore.jpg" alt="playstore"></a>
+        <a href=""><img src="./images/appstore.jpg" alt="appstore"></a>
+      </div>
+      <iframe width="420" height="315" src="https://www.youtube.com/embed/8zicBN1dOXo">
+      </iframe>
+      <hr>
+      <div class="other d-flex justify-content-center app">
+        <img src="./images/support/amazon-alexa.jpg" alt="brand" class="other--logo">
+        <img src="./images/support/google-assistant.jpg" alt="brand" class="other--logo">
+        <img src="./images/support/siri.png" alt="brand" class="other--logo">
+        <img src="./images/support/ios.png" alt="brand" class="other--logo">
+        <img src="./images/support/android.png" alt="brand" class="other--logo">
+        <img src="./images/support/tuya.jpg" alt="brand" class="other--logo">
+      </div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact">
+    <div class="container p-4">
+      <div class="d-flex justify-content-evenly contact">
+        <div class="contact--text">
+          <h4>TETAP TERHUBUNG DENGAN KAMI</h4>
+          <p>Mari tetap terhubung</p>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="column3">
-            <pre class="endtext2">
-                Technical Corner
-                Virtual Showroom
-                Forum
-                Kontak
-            </pre>
+        <div class="form">
+          <input type="text" class="form--input" placeholder="Masukan alamat email">
+          <button class="form--button">SUBMIT</button>
         </div>
       </div>
+    </div>
+  </section>
 
-      <hr class="dua">
-      <div>
-          <p class="endof">Copyright © 2020 BARDI. All Right Reserved.</p>
-      </div>
+  <!-- footer -->
+  <section>
+    <div class="container">
+      <footer class="text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row my-4">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+              <div
+                class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
+                style="width: 150px; height: 150px;">
+                <a href="#"><img src="https://bardi.co.id/wp-content/uploads/2019/02/cropped-Logo.jpg" alt="brand"
+                    class="navbar--img lazyloaded" data-ll-status="loaded" style="padding: 0;margin: 0px;"></a>
+              </div>
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <p>PT. BARDI Solusi Otomasi</p>
+                </li>
+                <li class="mb-2">
+                  <p>Samanea Whole Sale Market</p>
+                </li>
+                <li class="mb-2">
+                  <p>Side C Unit No C041-C044</p>
+                </li>
+                <li class="mb-2">
+                  <p>Jl. Suvarna Sutera Boulevard, Pasir Gadung</p>
+                </li>
+                <li class="mb-2">
+                  <p>Kec. Cikupa, Tangerang, Banten 15560</p>
+                </li>
+                <li class="mb-2">
+                  <p>Tech Support : 08111 7979 11</p>
+                </li>
+                <li class="mb-2">
+                  <p>Project Enquiry : 0817 7176 13</p>
+                </li>
+                <li class="mb-2">
+                  <p>Distributor Relation : 0817 7176 01</p>
+                </li>
+                <li class="mb-2">
+                  <p>Vendor Relation : 0817 7176 12</p>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <a href="index.html" class="">Beranda</a>
+                </li>
+                <li class="mb-2">
+                  <a href="biodata.html" class="">Biodata</a>
+                </li>
+                <li class="mb-2">
+                  <a href="contact_us.html" class="">Contact us</a>
+                </li>
+                <li class="mb-2">
+                  <a href="creativity.html" class="">Creativity</a>
+                </li>
+                 <li class="mb-2">
+                  <a href="https://fti.unai.edu" target="_Blank" class="">Website FTI UNAI</a>
+                </li>
+                <li class="mb-2" >
+                  <a href="https://unai.edu" target="_Blank" class="">Website UNAI</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="#" class="link--default"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="link--default"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="link--default"><i class="fa fa-instagram"></i></a>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3">
+          <hr>
+          <p class="text-center">Copyright © 2021. All Rights Reserved.</p>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </div>
+  </section>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
 </body>
+
 </html>

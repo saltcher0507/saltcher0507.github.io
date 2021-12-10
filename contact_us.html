@@ -1,134 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="2081040-TugasMID/BARDIbro.jpg">
-    <title>Contact Us!</title>
-    <link rel="stylesheet" href="contact_us.css"> 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./images/fav.jpg" />
 </head>
+
 <body>
-    <div><p class="tophead">Coba dulu <span><a style="color: #231f20;" href="https://bardi.co.id/virtual-showroom"><u><em><b>di sini</b></em></u></a></span> sebelum membeli</p>
-    </div>
-    <div>
-    <ul>
-        <li class="kata"><a href="https://unai.edu">Website UNAI</a></li>
-        <li class="kata"><a href="https://fti.unai.edu">Website FTI UNAI</a></li>
-        <li class="kata"><a href="creativity.html">Creativity</a></li>
-        <li class="kata"><a href="gallery.html">Gallery</a></li>
-        <li class="kata"><a href="contact_us.html">Contact Us</a></li>
-        <li class="kata"><a href="biodata.html">Biodata</a></li>
-        <li class="kata"><a href="index.html">Home</a></li>
-        <li><a href="https://bardi.co.id" target="_blank"><img class="pict" src="2081040-TugasMID/BARDIbro.jpg"></a></li> 
-    </ul>
-    </div>
+  <!-- topbar -->
+  <div class="topbar container-fluid">
+    <p class="text-center">Coba dulu <a href="#" class="topbar--link"><strong>disini</strong></a> sebelum membeli</p>
+  </div>
 
-    <div class="bg">
-        <table class="mrg">
-            <tr>
-                <td><label for="nama">NAMA :</label></td>
-                <td><input type="text" id="nama" name="nama" placeholder="Masukkan nama anda"></td>
-            </tr>
-            <tr>
-                <td><label for="email">EMAIL :</label></td>
-                <td><input type="email" id="email" name="email"></td>
-            </tr>
-            <tr>
-                <td><label for="username">USERNAME :</label></td>
-                <td><input type="text" id="username" name="username"></td>
-            </tr>
-            <tr>
-                <td><label for="password">PASSWORD :</label></td>
-                <td><input type="password" id="password" name="password"></td>
-            </tr>
-            <tr>
-                <td><label for="jenis_kelamin"></label>JENIS KELAMIN :</td>
-                <td><input type="radio" name="jenis_kelamin" value="Laki-laki">Laki-laki
-                    <input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan<br><br></td>
-            </tr>
-            <tr>
-                <td><label for="agama">AGAMA :</label></td>
-                <td><select name="agama" >
-                    <option value="">Pilih Agama</option>
-                    <option value="Kristen_Protestan">Kristen Protestan</option>
-                    <option value="Katolik">Katolik</option>
-                    <option value="Islam">Islam</option>
-                    <option value="Hindu">Hindu</option>
-                    <option value="Buddha">Buddha</option>
-                    </select><br>
-                </td>   
-            </tr>
-            <tr>
-                <td><label for="alamat">ALAMAT :</label></td>
-                <td><textarea name="message" rows="10" cols="30"></textarea><br><br></td>
-            </tr>
-            
-            <tr>
-                <td><label for="Hobby">HOBBY :</label></td>
-                <td><input type="checkbox" id="Olahraga" name="Olahraga" value="Olahraga">Olahraga
-                <input type="checkbox" id="Buat_lagu" name="Buat_lagu" value="Buat_lagu">Buat Lagu
-                <input type="checkbox" id="main_musik" name="main_musik" value="main_musik">Main Musik<br><br></td>
-            </tr>
-        </table>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">Brand</a> -->
+      <a href="index.html"><img src="https://bardi.co.id/wp-content/uploads/2019/02/cropped-Logo.jpg" alt="brand"
+          class="navbar--img lazyloaded" data-ll-status="loaded" style="padding: 0;margin: 0px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="biodata.html">Biodata</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact_us.html">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="creativity.html">Creativity</a>
+          </li>
+          <li class="nav-item" >
+                  <a href="https://fti.unai.edu" target="_Blank" class="nav-link">Website FTI UNAI</a>
+                </li>
+          <li class="nav-item" >
+                  <a href="https://unai.edu" target="_Blank" class="nav-link">Website UNAI</a>
+                </li>
+        </ul>
+      </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <div>
-        <h3 class="textfooter">TETAP TERHUBUNG DENGAN KAMI</h3>
-        <p class="textfooter2">Mari tetap terhubung</p>
-    </div>
-    <br>
-    <br>
-    <div class="row">
-        <div class="column3">
-            <img class="gbrfooter" src="2081040-TUGASMID/BARDIbro.jpg">
-        </div>
-        
-        <div class="column3">
-            <pre class="endtext">
-                    PT. BARDI Solusi Otomasi
-                    Samanea Whole Sale Market
-                    Side C Unit No C041-C044
-                    Jl. Suvarna Sutera Boulevard, Pasir Gadung
-                    Kec. Cikupa, Tangerang, Banten 15560
-                    Tech Support : 08111 7979 11
-                    Claim Warranty : 0817 66666 82
-                    Project Enquiry : 0817 7176 13
-                    Distributor Relation : 0817 7176 01
-                    Vendor Relation : 0817 7176 12</pre> 
-        </div>
+  </nav>
 
-        <div class="column3">
-            <pre class="endtext">
-                Beranda
-                Produk
-                Belanja
-                Claim Garansi
-                IP Cam CCTV
-            </pre>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="column3">
-            <pre class="endtext2">
-                Technical Corner
-                Virtual Showroom
-                Forum
-                Kontak
-            </pre>
+  <!-- form -->
+  <section class="mt-5">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-8">
+          <h3 class="text-center">Silahkan isi form berikut</h3>
+          <p class="text-center">Harap isi semua data</p>
+          <form action="">
+            <div class="form-group">
+              <label for="">Nama</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="">Email</label>
+              <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="">Username</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="">Password</label>
+              <input type="password" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="">Jenis kelamin</label>
+              <div>
+                <input type="radio" value="laki-laki" name="laki">
+                <label for="huey">Laki - laki</label>
+              </div>
+              <div>
+                <input type="radio" value="perempuan" name="perempuan">
+                <label for="huey">Perempuan</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="">Agama</label>
+              <select name="pets" id="pet-select" class="form-control">
+                <option value="">--Silahkan pilih agama--</option>
+                <option value="dog">Islam</option>
+                <option value="cat">Kristen</option>
+                <option value="hamster">Katolik</option>
+                <option value="parrot">Hindu</option>
+                <option value="spider">Buddha</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="">Alamat</label>
+              <textarea id="alamat" name="alamat" rows="5" cols="33" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="">Hobby</label>
+              <div>
+                <input type="checkbox" id="membaca" name="membaca">
+                <label for="membaca">membaca</label>
+              </div>
+
+              <div>
+                <input type="checkbox" id="melukis" name="melukis">
+                <label for="melukis">melukis</label>
+              </div>
+              <div>
+                <input type="checkbox" id="menulis" name="menulis">
+                <label for="menulis">menulis</label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary mt-4">Submit</button>
+          </form>
         </div>
       </div>
+    </div>
+  </section>
 
-      <hr class="dua">
-      <div>
-          <p class="endof">Copyright © 2020 BARDI. All Right Reserved.</p>
-      </div>
+  <!-- footer -->
+  <section>
+    <div class="container">
+      <footer class="text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row my-4">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+              <div
+                class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
+                style="width: 150px; height: 150px;">
+                <a href="#"><img src="https://bardi.co.id/wp-content/uploads/2019/02/cropped-Logo.jpg" alt="brand"
+                    class="navbar--img lazyloaded" data-ll-status="loaded" style="padding: 0;margin: 0px;"></a>
+              </div>
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <p>PT. BARDI Solusi Otomasi</p>
+                </li>
+                <li class="mb-2">
+                  <p>Samanea Whole Sale Market</p>
+                </li>
+                <li class="mb-2">
+                  <p>Side C Unit No C041-C044</p>
+                </li>
+                <li class="mb-2">
+                  <p>Jl. Suvarna Sutera Boulevard, Pasir Gadung</p>
+                </li>
+                <li class="mb-2">
+                  <p>Kec. Cikupa, Tangerang, Banten 15560</p>
+                </li>
+                <li class="mb-2">
+                  <p>Tech Support : 08111 7979 11</p>
+                </li>
+                <li class="mb-2">
+                  <p>Project Enquiry : 0817 7176 13</p>
+                </li>
+                <li class="mb-2">
+                  <p>Distributor Relation : 0817 7176 01</p>
+                </li>
+                <li class="mb-2">
+                  <p>Vendor Relation : 0817 7176 12</p>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <a href="index.html" class="">Beranda</a>
+                </li>
+                <li class="mb-2">
+                  <a href="biodata.html" class="">Biodata</a>
+                </li>
+                <li class="mb-2">
+                  <a href="contact_us.html" class="">Contact us</a>
+                </li>
+                <li class="mb-2">
+                  <a href="gallery.html" class="">Gallery</a>
+                </li>
+                <li class="mb-2">
+                  <a href="creativity.html" class="">Creativity</a>
+                </li>
+                 <li class="mb-2" >
+                  <a href="https://fti.unai.edu" target="_Blank" class="">Website FTI UNAI</a>
+                </li>
+                <li class="mb-2" >
+                  <a href="https://unai.edu" target="_Blank"  class="">Website UNAI</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <a href="#" class="link--default"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="link--default"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="link--default"><i class="fa fa-instagram"></i></a>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3">
+          <hr>
+          <p class="text-center">Copyright © 2021. All Rights Reserved.</p>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </div>
+  </section>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
 </body>
+
 </html>
